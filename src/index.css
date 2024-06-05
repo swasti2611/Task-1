@@ -1,0 +1,19 @@
+
+
+
+body {
+  margin: 0;
+  /* display: flex;
+  place-items: center;*/
+ min-width: 320px;
+ min-height: 100vh; 
+
+  top: 0px;
+  left: 0px;
+/* width: 1600px;
+height: 1800px; */
+background: #F5F5F5 0% 0% no-repeat padding-box;
+opacity: 1;
+ font-family: sans-serif;;
+}
+

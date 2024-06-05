@@ -1,0 +1,106 @@
+.Posts{
+   
+width: 520px;
+height: auto;
+/* UI Properties */
+/* background: #FFFFFF 0% 0% no-repeat padding-box; */
+
+border-radius: 10px;
+opacity: 1;
+position: relative;
+}
+.post-content{
+    width: 520px;
+    height: 500px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    
+    border-radius: 10px;
+    opacity: 1; 
+}
+.post-Image{
+    width: 452px;
+    height: 250px;
+    background: transparent url(/src/assets/pexels-humphrey-muleba-2045248.png) 0% 0% no-repeat padding-box;
+    background-size: cover;
+    border-radius: 10px;
+    opacity: 1;
+    margin-top: 9px;
+    margin-left: 23px;
+    padding: 13px;
+
+}
+.profile-bio{
+    width: 482px;
+    height: auto;
+    opacity: 1;
+    margin-top: 54px;
+    margin-left: 15px;
+    padding: 5px;
+  
+    font-size: 13px;
+    letter-spacing: 0px;
+color: rgba(16, 16, 16, 1);
+}
+.post-Image img{
+    float: right;margin-right: 10px;
+}
+.profile{
+    display: flex;
+}
+.profile-img{
+    width: 48px;
+height: 48px;
+/* UI Properties */
+background: transparent url('../assets/pexels-ali-pazani-2613260.png') 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+position: absolute;
+left: 4%;
+    top: 30px;
+}
+.profile-name{
+    width: 150px;
+height: 24px;
+
+
+font-size:20px ;
+font-weight: 600;
+position: absolute;
+left: 15%;
+    top: 30px;
+letter-spacing: 0px;
+color: rgba(16, 16, 16, 1);
+opacity: 1;
+}
+.user-Name{
+    width: 77px;
+height: 16px;
+text-align: left;
+font: normal normal medium 14px/16px Gilroy;
+letter-spacing: 0px;
+color: rgba(141, 141, 141, 1);
+opacity: 1;
+position: absolute;
+left: 15%;
+    top: 60px;
+}
+.like-share{
+    display: flex;
+}
+.like-share img {
+    width: 15px;
+    height: 15px;
+    /* position: absolute; */
+    left: 14px;
+    margin-top: 21px;
+    margin-left: 30px;;
+}
+.like-share p {
+    width: 20px;
+    height: 20px;
+    /* position: absolute; */
+    left: 14px;
+    margin-top: 21px;
+    margin-left: 2px;
+}
